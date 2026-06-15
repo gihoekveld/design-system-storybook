@@ -11,8 +11,8 @@
       "preview_urls": false,
       "route": {
         "custom_domain": true,
-        "pattern": "gisellehoekveld.tech",
-        "zone_name": "gisellehoekveld.tech",
+        "pattern": "storybook.gisellehoekveld.tech",
+        "zone_name": "storybook.gisellehoekveld.tech",
       },
     }
   }
