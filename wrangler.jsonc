@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tanstack-start-app",
+  "compatibility_date": "2026-09-24",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "src/server.ts",
+  "env": {
+    "production": {
+      "name": "design-system-storybook",
+      "workers_dev": false,
+      "preview_urls": false,
+      "route": {
+        "custom_domain": true,
+        "pattern": "gisellehoekveld.tech",
+        "zone_name": "gisellehoekveld.tech",
+      },
+    }
+  }
+}
